@@ -1,57 +1,57 @@
 const cacheID = "v0";
 const CacheItems = [
-    "index.html",   // Special page: Loads from network
-    "offline.html",   // Special page: Save to cache, but return only when offline
+    "public/vendor/Browser-Phone/Phone/index.html",   // Special page: Loads from network
+    "public/vendor/Browser-Phone/Phone/offline.html",   // Special page: Save to cache, but return only when offline
 
-    "/favicon.ico",
+    "public/vendor/Browser-Phone/Phone/favicon.ico",
 
-    "avatars/default.0.webp",
-    "avatars/default.1.webp",
-    "avatars/default.2.webp",
-    "avatars/default.3.webp",
-    "avatars/default.4.webp",
-    "avatars/default.5.webp",
-    "avatars/default.6.webp",
-    "avatars/default.7.webp",
-    "avatars/default.8.webp",
+    "public/vendor/Browser-Phone/Phone/avatars/default.0.webp",
+    "public/vendor/Browser-Phone/Phone/avatars/default.1.webp",
+    "public/vendor/Browser-Phone/Phone/avatars/default.2.webp",
+    "public/vendor/Browser-Phone/Phone/avatars/default.3.webp",
+    "public/vendor/Browser-Phone/Phone/avatars/default.4.webp",
+    "public/vendor/Browser-Phone/Phone/avatars/default.5.webp",
+    "public/vendor/Browser-Phone/Phone/avatars/default.6.webp",
+    "public/vendor/Browser-Phone/Phone/avatars/default.7.webp",
+    "public/vendor/Browser-Phone/Phone/avatars/default.8.webp",
 
-    "wallpaper.dark.webp",
-    "wallpaper.light.webp",
+    "public/vendor/Browser-Phone/Phone/wallpaper.dark.webp",
+    "public/vendor/Browser-Phone/Phone/wallpaper.light.webp",
 
-    "media/Alert.mp3",
-    "media/Ringtone_1.mp3",
-    "media/speech_orig.mp3",
-    "media/Tone_Busy-UK.mp3",
-    "media/Tone_Busy-US.mp3",
-    "media/Tone_CallWaiting.mp3",
-    "media/Tone_Congestion-UK.mp3",
-    "media/Tone_Congestion-US.mp3",
-    "media/Tone_EarlyMedia-Australia.mp3",
-    "media/Tone_EarlyMedia-European.mp3",
-    "media/Tone_EarlyMedia-Japan.mp3",
-    "media/Tone_EarlyMedia-UK.mp3",
-    "media/Tone_EarlyMedia-US.mp3",
+    "public/vendor/Browser-Phone/Phone/media/Alert.mp3",
+    "public/vendor/Browser-Phone/Phone/media/Ringtone_1.mp3",
+    "public/vendor/Browser-Phone/Phone/media/speech_orig.mp3",
+    "public/vendor/Browser-Phone/Phone/media/Tone_Busy-UK.mp3",
+    "public/vendor/Browser-Phone/Phone/media/Tone_Busy-US.mp3",
+    "public/vendor/Browser-Phone/Phone/media/Tone_CallWaiting.mp3",
+    "public/vendor/Browser-Phone/Phone/media/Tone_Congestion-UK.mp3",
+    "public/vendor/Browser-Phone/Phone/media/Tone_Congestion-US.mp3",
+    "public/vendor/Browser-Phone/Phone/media/Tone_EarlyMedia-Australia.mp3",
+    "public/vendor/Browser-Phone/Phone/media/Tone_EarlyMedia-European.mp3",
+    "public/vendor/Browser-Phone/Phone/media/Tone_EarlyMedia-Japan.mp3",
+    "public/vendor/Browser-Phone/Phone/media/Tone_EarlyMedia-UK.mp3",
+    "public/vendor/Browser-Phone/Phone/media/Tone_EarlyMedia-US.mp3",
 
-    "https://dtd6jl0d42sve.cloudfront.net/lib/jquery/jquery-3.6.1.min.js",
-    "https://dtd6jl0d42sve.cloudfront.net/lib/jquery/jquery-ui-1.13.2.min.js",
-    "https://dtd6jl0d42sve.cloudfront.net/lib/jquery/jquery.md5-min.js",
-    "https://dtd6jl0d42sve.cloudfront.net/lib/Chart/Chart.bundle-2.7.2.min.js",
-    "https://dtd6jl0d42sve.cloudfront.net/lib/SipJS/sip-0.20.0.min.js",
-    "https://dtd6jl0d42sve.cloudfront.net/lib/FabricJS/fabric-2.4.6.min.js",
-    "https://dtd6jl0d42sve.cloudfront.net/lib/Moment/moment-with-locales-2.24.0.min.js",
-    "https://dtd6jl0d42sve.cloudfront.net/lib/Croppie/Croppie-2.6.4/croppie.min.js",
-    "https://dtd6jl0d42sve.cloudfront.net/lib/XMPP/strophe-1.4.1.umd.min.js",
+    "public/vendor/Browser-Phone/lib/jquery/jquery-3.6.1.min.js",
+    "public/vendor/Browser-Phone/lib/jquery/jquery-ui-1.13.2.min.js",
+    "public/vendor/Browser-Phone/lib/jquery/jquery.md5-min.js",
+    "public/vendor/Browser-Phone/lib/Chart/Chart.bundle-2.7.2.min.js",
+    "public/vendor/Browser-Phone/lib/SipJS/sip-0.20.0.min.js",
+    "public/vendor/Browser-Phone/lib/FabricJS/fabric-2.4.6.min.js",
+    "public/vendor/Browser-Phone/lib/Moment/moment-with-locales-2.24.0.min.js",
+    "public/vendor/Browser-Phone/lib/Croppie/croppie-2.6.4.min.js",
+    "public/vendor/Browser-Phone/lib/XMPP/strophe-1.4.1.umd.min.js",
 
-    "https://dtd6jl0d42sve.cloudfront.net/lib/Normalize/normalize-v8.0.1.css",
-    "https://dtd6jl0d42sve.cloudfront.net/lib/fonts/font_roboto/roboto.css",
-    "https://dtd6jl0d42sve.cloudfront.net/lib/fonts/font_awesome/css/font-awesome.min.css",
-    "https://dtd6jl0d42sve.cloudfront.net/lib/jquery/jquery-ui-1.13.2.min.css",
-    "https://dtd6jl0d42sve.cloudfront.net/lib/Croppie/Croppie-2.6.4/croppie.css",
+    "public/vendor/Browser-Phone/lib/Normalize/normalize-v8.0.1.css",
+    "public/vendor/Browser-Phone/lib/fonts/font_roboto/roboto.css",
+    "public/vendor/Browser-Phone/lib/fonts/font_awesome/css/font-awesome.min.css",
+    "public/vendor/Browser-Phone/lib/jquery/jquery-ui-1.13.2.min.css",
+    "public/vendor/Browser-Phone/lib/Croppie/croppie.css",
 
-    "phone.js",
-    "phone.css",
-    "phone.light.css",
-    "phone.dark.css"
+    "public/vendor/Browser-Phone/Phone/phone.js",
+    "public/vendor/Browser-Phone/Phone/phone.css",
+    "public/vendor/Browser-Phone/Phone/phone.light.css",
+    "public/vendor/Browser-Phone/Phone/phone.dark.css"
 
 ];
 
@@ -67,7 +67,7 @@ self.addEventListener('install', function(event){
     }).catch(function(error){
         console.warn("Error opening Cache:", error);
         // Skip waiting to activate
-        self.skipWaiting(); 
+        self.skipWaiting();
     }));
 });
 
@@ -102,7 +102,7 @@ const loadFromCacheFirst = async function(request) {
             addToCache(request, responseFromNetwork.clone());
         }
         return responseFromNetwork;
-    } 
+    }
     catch (error) {
         return new Response("Network Error", { status: 408, statusText : "Network Error", headers: { "Content-Type": "text/plain" },});
     }
