@@ -1,6 +1,6 @@
 {
     "name": "Softphone VoIPforAll",
-    "short_name": "VoIPforAll",
+    "short_name": "Softphone VoIPforAll",
     "id": "br.com.voipforall",
     "start_url": "index.html",
     "display": "standalone",
