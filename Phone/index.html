@@ -3,8 +3,8 @@
     <head>
         <meta charset="utf-8">
 
-        <title>Browser Phone</title>
-        <meta name="description" content="Browser Phone is a fully featured browser based WebRTC SIP phone for Asterisk. Designed to work with Asterisk PBX. It will connect to Asterisk PBX via web socket, and register an extension.  Calls are made between contacts, and a full call detail is saved. Audio and Video Calls can be recorded locally.">
+        <title>Softphone VoIPforAll</title>
+        <meta name="description" content="WebRTC SIP phone for Asterisk. Designed by VoIPforAll">
 
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"/>
 
@@ -44,9 +44,37 @@
 
         <!-- Provisioning -->
         <script type="text/javascript">
+
             // Provision runtime options can go here.
             var phoneOptions = {
-                loadAlternateLang: true
+                // User Agent
+                userAgentStr: "WebPhone VoIPforAll",
+
+                // Idioma
+                loadAlternateLang: true,
+                Language: "pt-br",
+
+                // Permission Settings
+                welcomeScreen: false,
+                EnableTextMessaging: false,
+                DisableFreeDial: false,
+                DisableBuddies: false,
+                EnableTransfer: true,
+                EnableConference: true,
+                AutoAnswerPolicy: "allow",          // allow = user can choose | disabled = feature is disabled | enabled = feature is always on
+                DoNotDisturbPolicy: "allow",        // allow = user can choose | disabled = feature is disabled | enabled = feature is always on
+                CallWaitingPolicy: "allow",         // allow = user can choose | disabled = feature is disabled | enabled = feature is always on
+                CallRecordingPolicy: "allow",       // allow = user can choose | disabled = feature is disabled | enabled = feature is always on
+                IntercomPolicy: "enabled",          // disabled = feature is disabled | enabled = feature is always on
+                EnableAccountSettings: false,
+                EnableAppearanceSettings: true,
+                EnableNotificationSettings: true,
+                EnableAlphanumericDial: false,
+                EnableVideoCalling: true,
+                EnableTextExpressions: true,
+                EnableTextDictate: true,
+                EnableRingtone: true,
+                EnableDoNotDisturb: true,
             }
 
             // Occurs after the language file is loaded

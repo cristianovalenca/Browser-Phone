@@ -1,40 +1,40 @@
 {
-    "name": "Browser Phone",
-    "short_name": "Browser Phone",
-    "id": "com.innovateasterisk.browserphone",
+    "name": "Softphone VoIPforAll",
+    "short_name": "VoIPforAll",
+    "id": "br.com.voipforall",
     "start_url": "index.html",
     "display": "standalone",
     "background_color": "#fff",
     "theme_color": "#f6f6f6",
-    "description": "Browser Phone is a fully featured browser based WebRTC SIP phone for Asterisk. Designed to work with Asterisk PBX.",
+    "description": "WebRTC SIP phone for Asterisk. Designed by VoIPforAll",
     "screenshots": [
         {
             "src": "icons/screenshot1.webp",
             "type": "image/webp",
             "sizes": "2542x1860",
-            "label": "Innovate Asterisk"
+            "label": "VoIPforAll"
         },
         {
             "src": "icons/screenshot2.webp",
             "type": "image/webp",
             "sizes": "2542x1860",
-            "label": "Innovate Asterisk"
+            "label": "VoIPforAll"
         }
     ],
     "icons": [
         {
-            "src": "icons/maskable_192.png",
+            "src": "icons/voipforall-telecon_192.png",
             "sizes": "192x192",
             "type": "image/png",
             "purpose": "maskable"
         },
         {
-            "src": "icons/any_192.png",
+            "src": "icons/voipforall-telecon_192.png",
             "sizes": "192x192",
             "type": "image/png"
         },
         {
-            "src": "icons/512.png",
+            "src": "icons/voipforall-telecon_512.png",
             "sizes": "512x512",
             "type": "image/png"
         }
