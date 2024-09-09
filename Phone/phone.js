@@ -12861,7 +12861,7 @@ function ToggleHeading(obj, div){
 }
 function ToggleAutoAnswer(){
     if(AutoAnswerPolicy == "disabled"){
-        AutoAnswerEnabled = false;
+        // AutoAnswerEnabled = false;
         console.warn("Policy AutoAnswer: Disabled");
         return;
     }
